@@ -1,0 +1,387 @@
+{
+    "searchParameters": {
+        "q": "apple inc",
+        "type": "maps",
+        "engine": "google"
+    },
+    "ll": "@42.4449733,-117.3342546,6z",
+    "places": [
+        {
+            "position": 1,
+            "title": "Apple Inc",
+            "address": "2511 Laguna Blvd, Elk Grove, CA 95758",
+            "latitude": 38.4293061,
+            "longitude": -121.4791781,
+            "rating": 3.8,
+            "ratingCount": 143,
+            "priceLevel": "$$$",
+            "type": "Corporate office",
+            "types": [
+                "Corporate office"
+            ],
+            "website": "http://apple.com/",
+            "phoneNumber": "(916) 399-7173",
+            "openingHours": {
+                "Thursday": "8:22 AM–5:47 PM",
+                "Friday": "8:22 AM–5:47 PM",
+                "Saturday": "Closed",
+                "Sunday": "Closed",
+                "Monday": "8:22 AM–5:47 PM",
+                "Tuesday": "8:22 AM–5:47 PM",
+                "Wednesday": "8:22 AM–5:47 PM"
+            },
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipP_Jt5BWBapoBDNlj86DvG4zYqhlERqk4jFVts9",
+            "cid": "3088679940157317522",
+            "fid": "0x809ac8cfc2edfa57:0x2add320a81f3a192",
+            "placeId": "ChIJV_rtws_ImoARkqHzgQoy3So"
+        },
+        {
+            "position": 2,
+            "title": "Apple Inc.",
+            "address": "1070 E Arques Ave, Sunnyvale, CA 94085",
+            "latitude": 37.378546899999996,
+            "longitude": -122.0003521,
+            "rating": 3.9,
+            "ratingCount": 176,
+            "priceLevel": "$$$",
+            "type": "Corporate office",
+            "types": [
+                "Corporate office"
+            ],
+            "website": "http://apple.com/",
+            "phoneNumber": "(800) 692-7753",
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipOw0mwabkEzYCKNiYuLrcu96ERYvLZOkOkX217P",
+            "cid": "14129532238805838308",
+            "fid": "0x808fb6196e0a7497:0xc4162eb5b073a9e4",
+            "placeId": "ChIJl3QKbhm2j4AR5KlzsLUuFsQ"
+        },
+        {
+            "position": 3,
+            "title": "Apple",
+            "address": "10500 N De Anza Blvd, Cupertino, CA 95014",
+            "latitude": 37.329240899999995,
+            "longitude": -122.0310416,
+            "rating": 3.5,
+            "ratingCount": 181,
+            "priceLevel": "$$$",
+            "type": "Corporate office",
+            "types": [
+                "Corporate office"
+            ],
+            "website": "http://apple.com/",
+            "phoneNumber": "(408) 996-1010",
+            "openingHours": {
+                "Thursday": "8 AM–5 PM",
+                "Friday": "8 AM–5 PM",
+                "Saturday": "8 AM–5 PM",
+                "Sunday": "8 AM–5 PM",
+                "Monday": "8 AM–5 PM",
+                "Tuesday": "8 AM–5 PM",
+                "Wednesday": "8 AM–5 PM"
+            },
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipMzPoWr0z2UMqIWEULSLB4XbIwPH-FMQQ-OIC97",
+            "cid": "15878603320944575477",
+            "fid": "0x808fb5b13fdcecf7:0xdc5c21978a3d43f5",
+            "placeId": "ChIJ9-zcP7G1j4AR9UM9ipchXNw"
+        },
+        {
+            "position": 4,
+            "title": "Apple Inc (SD01)",
+            "address": "825 Stewart Dr, Sunnyvale, CA 94085",
+            "latitude": 37.3844707,
+            "longitude": -122.0093077,
+            "type": "Corporate office",
+            "types": [
+                "Corporate office"
+            ],
+            "website": "https://www.apple.com/",
+            "openingHours": {
+                "Thursday": "8 AM–9 PM",
+                "Friday": "8 AM–9 PM",
+                "Saturday": "8 AM–9 PM",
+                "Sunday": "8 AM–9 PM",
+                "Monday": "8 AM–9 PM",
+                "Tuesday": "8 AM–9 PM",
+                "Wednesday": "8 AM–9 PM"
+            },
+            "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YvQ5kN7IAeycKspox-f9Vw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=6.5073647&pitch=0&thumbfov=100",
+            "cid": "14812030798474159337",
+            "fid": "0x808fb750338e8361:0xcd8ee788a132a4e9",
+            "placeId": "ChIJYYOOM1C3j4AR6aQyoYjnjs0"
+        },
+        {
+            "position": 5,
+            "title": "Apple Corporation",
+            "address": "2080 N Loop Rd, Alameda, CA 94502",
+            "latitude": 37.7286218,
+            "longitude": -122.2442559,
+            "rating": 1,
+            "ratingCount": 1,
+            "type": "Corporate campus",
+            "types": [
+                "Corporate campus"
+            ],
+            "openingHours": {
+                "Thursday": "10 AM–10 PM",
+                "Friday": "10 AM–10 PM",
+                "Saturday": "10 AM–10 PM",
+                "Sunday": "10 AM–10 PM",
+                "Monday": "10 AM–10 PM",
+                "Tuesday": "10 AM–10 PM",
+                "Wednesday": "10 AM–10 PM"
+            },
+            "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V6wllNOjq-rVqIMGaG9D4g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=221.41148&pitch=0&thumbfov=100",
+            "cid": "7770158157602578607",
+            "fid": "0x808f856329bf00cb:0x6bd525ad208160af",
+            "placeId": "ChIJywC_KWOFj4ARr2CBIK0l1Ws"
+        },
+        {
+            "position": 6,
+            "title": "Apple Inc",
+            "address": "2845 Bowers Ave, Santa Clara, CA 95051",
+            "latitude": 37.3731279,
+            "longitude": -121.9773166,
+            "type": "Corporate office",
+            "types": [
+                "Corporate office"
+            ],
+            "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I-pt7cyeqTbQgjYDhOP79A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=76.056076&pitch=0&thumbfov=100",
+            "cid": "6422183385564473213",
+            "fid": "0x808fc99ea706a261:0x59202dc352fc677d",
+            "placeId": "ChIJYaIGp57Jj4ARfWf8UsMtIFk"
+        },
+        {
+            "position": 7,
+            "title": "Apple Fashion Place",
+            "address": "6191 S State St, Murray, UT 84107",
+            "latitude": 40.6362464,
+            "longitude": -111.8875216,
+            "rating": 3.4,
+            "ratingCount": 1665,
+            "priceLevel": "$$$",
+            "type": "Electronics store",
+            "types": [
+                "Electronics store",
+                "Computer repair service",
+                "Mobile phone repair shop"
+            ],
+            "website": "https://www.apple.com/retail/fashionplace?cid=aos-us-seo-maps",
+            "phoneNumber": "(801) 905-4410",
+            "description": "Apple retail store selling iPhones, iPads & more in sleekly designed spaces.",
+            "openingHours": {
+                "Thursday": "10 AM–8 PM",
+                "Friday": "10 AM–9 PM",
+                "Saturday": "10 AM–9 PM",
+                "Sunday": "11 AM–6 PM",
+                "Monday": "10 AM–8 PM",
+                "Tuesday": "10 AM–8 PM",
+                "Wednesday": "10 AM–8 PM"
+            },
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipMNAAyDGZyIyk1h-7hcC2WMXKNMrQaw5ncJRnLz",
+            "cid": "5255230387588482741",
+            "fid": "0x875289bef87fcb6b:0x48ee5431b10cc6b5",
+            "placeId": "ChIJa8t_-L6JUocRtcYMsTFU7kg"
+        },
+        {
+            "position": 8,
+            "title": "Apple",
+            "address": "455 De Guigne Dr, Sunnyvale, CA 94085",
+            "latitude": 37.384989999999995,
+            "longitude": -122.008045,
+            "rating": 3.7,
+            "ratingCount": 3,
+            "type": "Corporate campus",
+            "types": [
+                "Corporate campus"
+            ],
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipNOBRGbY7IAXAvMrNLeyWFtLA3g8l-5CXSHd9Qu",
+            "cid": "440065625417431977",
+            "fid": "0x808fb63c719c095b:0x61b6d5ad0ddbba9",
+            "placeId": "ChIJWwmccTy2j4ARqbvd0FptGwY"
+        },
+        {
+            "position": 9,
+            "title": "Apple",
+            "address": "333 Dexter Ave N, Seattle, WA 98109",
+            "latitude": 47.621594599999995,
+            "longitude": -122.34297219999999,
+            "rating": 3.7,
+            "ratingCount": 11,
+            "type": "Corporate office",
+            "types": [
+                "Corporate office"
+            ],
+            "website": "http://apple.com/",
+            "phoneNumber": "(206) 607-1738",
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipOs1zVs41pn0hUKRBecrK73dPiyDjWRsS-vKbB6",
+            "cid": "13819581059121944037",
+            "fid": "0x54901588c735d1e3:0xbfc903c105ae15e5",
+            "placeId": "ChIJ49E1x4gVkFQR5RWuBcEDyb8"
+        },
+        {
+            "position": 10,
+            "title": "Apple Arden Fair",
+            "address": "1689 Arden Wy, Sacramento, CA 95815",
+            "latitude": 38.6016246,
+            "longitude": -121.4269831,
+            "rating": 3.6,
+            "ratingCount": 1353,
+            "priceLevel": "$$$",
+            "type": "Electronics store",
+            "types": [
+                "Electronics store",
+                "Computer repair service",
+                "Mobile phone repair shop"
+            ],
+            "website": "https://www.apple.com/retail/ardenfair?cid=aos-us-seo-maps",
+            "phoneNumber": "(916) 830-5610",
+            "description": "Apple retail store selling iPhones, iPads & more in sleekly designed spaces.",
+            "openingHours": {
+                "Thursday": "10 AM–8 PM",
+                "Friday": "10 AM–8 PM",
+                "Saturday": "10 AM–8 PM",
+                "Sunday": "11 AM–7 PM",
+                "Monday": "10 AM–8 PM",
+                "Tuesday": "10 AM–8 PM",
+                "Wednesday": "10 AM–8 PM"
+            },
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipMHf3xNjEomUWmZAp9oXHQxWzm4-PjO22-Q9Ery",
+            "cid": "17024247645621449706",
+            "fid": "0x809ada1e8ef9142f:0xec4247090d8bf3ea",
+            "placeId": "ChIJLxT5jh7amoAR6vOLDQlHQuw"
+        },
+        {
+            "position": 11,
+            "title": "Apple",
+            "address": "475 Potrero Ave, Sunnyvale, CA 94085",
+            "latitude": 37.3886142,
+            "longitude": -122.03801019999999,
+            "rating": 4.9,
+            "ratingCount": 9,
+            "type": "Corporate office",
+            "types": [
+                "Corporate office"
+            ],
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipNIBCenV0ZjCuIUtRVW7fpYSWH9TDyKyV1ndPfL",
+            "cid": "17730248322955834150",
+            "fid": "0x808fb6557d1d0a61:0xf60e7ee92d3f7326",
+            "placeId": "ChIJYQodfVW2j4ARJnM_Lel-DvY"
+        },
+        {
+            "position": 12,
+            "title": "Apple Washington Square",
+            "address": "9585 SW Washington Square Rd, Tigard, OR 97223",
+            "latitude": 45.450642099999996,
+            "longitude": -122.7809877,
+            "rating": 3.5,
+            "ratingCount": 1462,
+            "priceLevel": "$$$",
+            "type": "Electronics store",
+            "types": [
+                "Electronics store",
+                "Computer repair service",
+                "Mobile phone repair shop"
+            ],
+            "website": "https://www.apple.com/retail/washingtonsquare?cid=aos-us-seo-maps",
+            "phoneNumber": "(503) 495-2080",
+            "description": "Apple retail store selling iPhones, iPads & more in sleekly designed spaces.",
+            "openingHours": {
+                "Thursday": "10 AM–9 PM",
+                "Friday": "10 AM–9 PM",
+                "Saturday": "10 AM–9 PM",
+                "Sunday": "11 AM–7 PM",
+                "Monday": "10 AM–9 PM",
+                "Tuesday": "10 AM–9 PM",
+                "Wednesday": "10 AM–9 PM"
+            },
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipNRi6-Hhpb03W1Vh9x-6H1hs7c1IqfNgP8cGlHM",
+            "cid": "4939156926991346432",
+            "fid": "0x54950c562db28c91:0x448b690e6b3aab00",
+            "placeId": "ChIJkYyyLVYMlVQRAKs6aw5pi0Q"
+        },
+        {
+            "position": 13,
+            "title": "Apple Enterprises",
+            "address": "13749 Lexington Ct, Saratoga, CA 95070",
+            "latitude": 37.268352,
+            "longitude": -122.0299215,
+            "type": "Computer consultant",
+            "types": [
+                "Computer consultant"
+            ],
+            "website": "http://www.applehome.com/",
+            "phoneNumber": "(408) 741-8102",
+            "openingHours": {
+                "Thursday": "8 AM–6 PM",
+                "Friday": "8 AM–6 PM",
+                "Saturday": "Closed",
+                "Sunday": "Closed",
+                "Monday": "8 AM–6 PM",
+                "Tuesday": "8 AM–6 PM",
+                "Wednesday": "8 AM–6 PM"
+            },
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipPwq4uw0kxyc6qJa_rq8tIjoLCs7iY1ZQ8XQqfy",
+            "cid": "3952154217860138783",
+            "fid": "0x808e4ad0802f8f61:0x36d8df525d1d871f",
+            "placeId": "ChIJYY8vgNBKjoARH4cdXVLf2DY"
+        },
+        {
+            "position": 14,
+            "title": "A is for Apple",
+            "address": "1420 Koll Cir, San Jose, CA 95112",
+            "latitude": 37.3648872,
+            "longitude": -121.9050408,
+            "rating": 2.8,
+            "ratingCount": 23,
+            "type": "Child health care centre",
+            "types": [
+                "Child health care centre",
+                "Mental health clinic"
+            ],
+            "website": "https://aisforapple.com/",
+            "phoneNumber": "(888) 805-0759",
+            "openingHours": {
+                "Thursday": "8 AM–7 PM",
+                "Friday": "8 AM–7 PM",
+                "Saturday": "Closed",
+                "Sunday": "Closed",
+                "Monday": "8 AM–7 PM",
+                "Tuesday": "8 AM–7 PM",
+                "Wednesday": "8 AM–7 PM"
+            },
+            "bookingLinks": [
+                "https://www.autismlearningpartners.com/contact-us"
+            ],
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipMnFj0dKwmB9VeWgoI8YZiFveN5l4praCX2SB1U",
+            "cid": "7748087905949629094",
+            "fid": "0x808e35e7b041dd45:0x6b86bce63aa0baa6",
+            "placeId": "ChIJRd1BsOc1joARprqgOua8hms"
+        },
+        {
+            "position": 15,
+            "title": "apple distributing inc",
+            "address": "1111 S Orchard St #304, Boise, ID 83705",
+            "latitude": 43.593928,
+            "longitude": -116.2448386,
+            "type": "Computer service",
+            "types": [
+                "Computer service"
+            ],
+            "phoneNumber": "(786) 223-7860",
+            "openingHours": {
+                "Thursday": "7 AM–3 PM",
+                "Friday": "7 AM–3 PM",
+                "Saturday": "7 AM–3 PM",
+                "Sunday": "Closed",
+                "Monday": "7 AM–3 PM",
+                "Tuesday": "7 AM–3 PM",
+                "Wednesday": "7 AM–3 PM"
+            },
+            "thumbnailUrl": "https://lh5.googleusercontent.com/p/AF1QipMASzkDIl2KGDxKxeUIFDarnKPtkkvlUOftxc2x",
+            "cid": "5990706026412275920",
+            "fid": "0x54ae57d0b508db5f:0x53234364121878d0",
+            "placeId": "ChIJX9sItdBXrlQR0HgYEmRDI1M"
+        }
+    ],
+    "credits": 3
+}

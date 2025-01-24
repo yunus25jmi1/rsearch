@@ -1,0 +1,110 @@
+{
+    "searchParameters": {
+        "q": "apple inc",
+        "type": "videos",
+        "engine": "google"
+    },
+    "videos": [
+        {
+            "title": "🔥😧 APPLE Inc. The TRUTH 😨🔥",
+            "link": "https://www.youtube.com/watch?v=P7slEUBcP0s",
+            "snippet": "IF YOU LIKE THESE VIDEOS, YOU CAN MAKE A SMALL DONATION VIA PAYPAL or BITCOIN PAYPAL LINK: ...",
+            "imageUrl": "https://i.ytimg.com/vi/P7slEUBcP0s/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nb_ePHVd-QQzaoaRAWEkKdlEvDFw",
+            "duration": "27:57",
+            "source": "YouTube",
+            "channel": "Theoria Apophasis",
+            "date": "Feb 18, 2024",
+            "position": 1
+        },
+        {
+            "title": "An honest message to Apple inc",
+            "link": "https://www.youtube.com/watch?v=QiClmSLuLXs",
+            "snippet": "My email is louis@fighttorepair.org , and is always open. https://www.youtube.com/watch?v=3tRq5niOM7Q https://youtu.be/NVAmnV65_zw?t=254 ...",
+            "imageUrl": "https://i.ytimg.com/vi/QiClmSLuLXs/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kxSsNA-nX8yJQ3vgOGToVtRm6IJw",
+            "duration": "10:07",
+            "source": "YouTube",
+            "channel": "Louis Rossmann",
+            "date": "Jul 17, 2023",
+            "position": 2
+        },
+        {
+            "title": "Apple",
+            "link": "https://www.youtube.com/apple",
+            "snippet": "Apple Watch | Dear Apple | Apple. Apple. 1.5M views. 2 years ago. CC · iPhone ... Apple TV+ subscription: apple.co/_Apple-TV-Plus · 1:01 · Eva the Owlet — Season ...",
+            "position": 3
+        },
+        {
+            "title": "Apple at Work - Success Stories - Rituals",
+            "link": "https://www.apple.com/business/enterprise/success-stories/retail/rituals/",
+            "snippet": "As the company expands, every employee is given an Apple device to use at work. The Apple ecosystem is easy to deploy and manage at scale — and allows the team ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2fQUt18rZ6bNh517ZXrBhglc_V-v41PM9eeZkLm2iYZwe&s",
+            "source": "Apple",
+            "date": "Apr 3, 2024",
+            "position": 4
+        },
+        {
+            "title": "Q&A With Phill - Who is the \"APPLE Inc.\" of the Keyboard ...",
+            "link": "https://www.youtube.com/watch?v=9pC5_J3Xifs",
+            "snippet": "Thinking of buying a keyboard or other gear after watching this video? Go here: http://azexperiment.com (if you cannot find what you are ...",
+            "imageUrl": "https://i.ytimg.com/vi/9pC5_J3Xifs/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kWLFCM_qypMbmnM7OhdPi6JCAQ7Q",
+            "duration": "18:08",
+            "source": "YouTube",
+            "channel": "Phill C - azexperiment",
+            "date": "Aug 10, 2024",
+            "position": 5
+        },
+        {
+            "title": "Apple - Great Company, Does it offer a great return?",
+            "link": "https://www.youtube.com/watch?v=9MKNi9kJfyY",
+            "snippet": "Apple is a great company, but does it offer a great return? Apple Inc. designs, manufactures, and markets smartphones, personal computers, ...",
+            "imageUrl": "https://i.ytimg.com/vi/9MKNi9kJfyY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nVdStUv6TBPLdIKL-nPWunY5XEbQ",
+            "duration": "9:33",
+            "source": "YouTube",
+            "channel": "Victor H Investing",
+            "date": "May 18, 2024",
+            "position": 6
+        },
+        {
+            "title": "Education - Higher Education - Ideation & Development",
+            "link": "https://www.apple.com/education/higher-education/success-stories/san-diego-state-university/",
+            "snippet": "“And we're talking about students that aren't coming from computer science backgrounds.” Since the start of ZIP Launchpad, more than 400 student teams ...",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPN-iI1WpOyS-bZP-m__k8OcqFQKJg3g0bE1kvgEm-j2g7&s",
+            "duration": "0:15",
+            "source": "Apple",
+            "date": "Aug 15, 2024",
+            "position": 7
+        },
+        {
+            "title": "Apple Watch Ultra 2",
+            "link": "https://www.apple.com/apple-watch-ultra-2/",
+            "snippet": "Designed in partnership with Huish Outdoors, the Oceanic+ app turns Ultra 2 into a fully capable dive computer running a Bühlmann decompression algorithm.",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZ58COtZS4zIIJDd1-Tl0GIKbFqoffFlhLa20OtLcILDR&s",
+            "source": "Apple",
+            "date": "Sep 12, 2023",
+            "position": 8
+        },
+        {
+            "title": "Apple is poised to become the first publicly traded company ...",
+            "link": "https://www.youtube.com/watch?v=5WCb5idu54c",
+            "snippet": "Apple is poised to become the first publicly traded company worth four trillion dollars as it could be about to make a new bid to bring AI ...",
+            "imageUrl": "https://i.ytimg.com/vi/5WCb5idu54c/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kyvIB_D-YPNZDxDuL8Pca9azXCPQ",
+            "duration": "1:38",
+            "source": "YouTube",
+            "channel": "NBC News",
+            "date": "1 month ago",
+            "position": 9
+        },
+        {
+            "title": "Dear, Apple Inc. #viral #fyp",
+            "link": "https://www.tiktok.com/@im.markk/video/7361996293503339818",
+            "snippet": "1148 Likes, 34 Comments. TikTok video from Mark (@im.markk): “Dear, Apple Inc. #viral #fyp”. original sound - Mark.",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2BESL371BdmqkSCNlavNGg0YHupiXmIprqYO1je_vEKBA&s",
+            "duration": "0:15",
+            "source": "TikTok",
+            "channel": "im.markk",
+            "date": "Apr 25, 2024",
+            "position": 10
+        }
+    ],
+    "credits": 1
+}

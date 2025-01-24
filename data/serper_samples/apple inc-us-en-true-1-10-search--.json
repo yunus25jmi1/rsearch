@@ -1,0 +1,188 @@
+{
+    "searchParameters": {
+        "q": "apple inc",
+        "type": "search",
+        "engine": "google"
+    },
+    "knowledgeGraph": {
+        "title": "Apple",
+        "type": "Technology company",
+        "website": "http://www.apple.com/",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ITHsQzdzkkFWKinRe1Y4FUbC_Vy3R_M&s=0",
+        "attributes": {
+            "Customer service": "1 (800) 275-2273",
+            "Founders": "Steve Jobs, Steve Wozniak, and Ronald Wayne",
+            "CEO": "Tim Cook (Aug 24, 2011–)",
+            "Founded": "April 1, 1976, Los Altos, CA",
+            "Headquarters": "Cupertino, CA"
+        }
+    },
+    "organic": [
+        {
+            "title": "Apple",
+            "link": "https://www.apple.com/",
+            "snippet": "Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, ...",
+            "sitelinks": [
+                {
+                    "title": "Support",
+                    "link": "https://support.apple.com/"
+                },
+                {
+                    "title": "Career Opportunities",
+                    "link": "https://www.apple.com/careers/us/"
+                },
+                {
+                    "title": "Investor Relations",
+                    "link": "https://investor.apple.com/investor-relations/default.aspx"
+                },
+                {
+                    "title": "Store",
+                    "link": "https://www.apple.com/store"
+                },
+                {
+                    "title": "iPhone",
+                    "link": "https://www.apple.com/iphone/"
+                }
+            ],
+            "position": 1
+        },
+        {
+            "title": "Apple Inc. - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Apple_Inc.",
+            "snippet": "Apple Inc. is an American multinational corporation and technology company headquartered in Cupertino, California, in Silicon Valley.",
+            "sitelinks": [
+                {
+                    "title": "History",
+                    "link": "https://en.wikipedia.org/wiki/History_of_Apple_Inc."
+                },
+                {
+                    "title": "List of Apple products",
+                    "link": "https://en.wikipedia.org/wiki/List_of_Apple_products"
+                },
+                {
+                    "title": "List of Apple Inc. media events",
+                    "link": "https://en.wikipedia.org/wiki/List_of_Apple_Inc._media_events"
+                },
+                {
+                    "title": "Apple Park",
+                    "link": "https://en.wikipedia.org/wiki/Apple_Park"
+                }
+            ],
+            "position": 2
+        },
+        {
+            "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History - Yahoo Finance",
+            "link": "https://finance.yahoo.com/quote/AAPL/",
+            "snippet": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.",
+            "date": "Jan 6, 2025",
+            "sitelinks": [
+                {
+                    "title": "Profile",
+                    "link": "https://finance.yahoo.com/quote/AAPL/profile/"
+                },
+                {
+                    "title": "Statistics",
+                    "link": "https://finance.yahoo.com/quote/AAPL/key-statistics/"
+                },
+                {
+                    "title": "Chart",
+                    "link": "https://finance.yahoo.com/quote/AAPL/chart/"
+                },
+                {
+                    "title": "222.79",
+                    "link": "https://finance.yahoo.com/quote/AAPL/news/"
+                }
+            ],
+            "position": 3
+        },
+        {
+            "title": "AAPL: Apple Inc Stock Price Quote - NASDAQ GS - Bloomberg",
+            "link": "https://www.bloomberg.com/quote/AAPL:US",
+            "snippet": "Stock analysis for Apple Inc (AAPL:NASDAQ GS) including stock price, stock chart, company news, key statistics, fundamentals and company profile.",
+            "position": 4
+        },
+        {
+            "title": "Apple Inc. (AAPL) Company Profile & Facts - Yahoo Finance",
+            "link": "https://finance.yahoo.com/quote/AAPL/profile/",
+            "snippet": "(408) 996-1010 https://www.apple.com. Sector: Technology. Industry: Consumer Electronics. Full Time Employees: 164,000. Description. Apple Inc. designs ...",
+            "position": 5
+        },
+        {
+            "title": "Apple Inc. | History, Products, Headquarters, & Facts - Britannica",
+            "link": "https://www.britannica.com/money/Apple-Inc",
+            "snippet": "American manufacturer of personal computers, smartphones, and tablet computers. Apple was the first successful personal computer company and ...",
+            "date": "4 days ago",
+            "position": 6
+        },
+        {
+            "title": "Apple - LinkedIn",
+            "link": "https://www.linkedin.com/company/apple",
+            "snippet": "External link for Apple. Industry: Computers and Electronics Manufacturing. Company size: 10,001+ employees. Headquarters: Cupertino, California. Type: Public ...",
+            "position": 7
+        }
+    ],
+    "places": [
+        {
+            "title": "Apple Glendale Galleria",
+            "address": "Glendale, CA",
+            "cid": "4900376850231512077"
+        },
+        {
+            "title": "Apple Pasadena",
+            "address": "Pasadena, CA",
+            "cid": "14291720074800349253"
+        },
+        {
+            "title": "Apple Customer Service",
+            "address": "Gardena, CA",
+            "cid": "13778277198526723825"
+        }
+    ],
+    "peopleAlsoAsk": [
+        {
+            "question": "What is Apple Inc stand for?",
+            "snippet": "Apple was founded by Steve jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak's Apple I personal computer. It was incorporated as Apple Computer, Inc. in January 1977, and sales of its computers, including the Apple II , saw significant momentum and revenue growth for the company.",
+            "title": "What does the 'Inc.' in Apple Inc. mean? - Quora",
+            "link": "https://www.quora.com/What-does-the-Inc-in-Apple-Inc-mean"
+        },
+        {
+            "question": "Is Apple called Apple or Apple Inc.?",
+            "snippet": "Apple Inc., originally Apple Computer, Inc., is a multinational corporation that creates and markets consumer electronics and attendant computer software, and is a digital distributor of media content. Apple's core product lines are the iPhone smartphone, iPad tablet computer, and the Mac personal computer.",
+            "title": "History of Apple Inc. - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/History_of_Apple_Inc."
+        },
+        {
+            "question": "Why did Apple change to Apple Inc?",
+            "snippet": "During his keynote speech at the Macworld Expo on January 9, 2007, Jobs announced the renaming of Apple Computer, Inc. to Apple Inc., because the company had broadened its focus from computers to consumer electronics. This event also saw the announcement of the iPhone and the Apple TV.",
+            "title": "Apple Inc. - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Apple_Inc."
+        }
+    ],
+    "relatedSearches": [
+        {
+            "query": "Find My iPhone"
+        },
+        {
+            "query": "apple inc คืออะไร"
+        },
+        {
+            "query": "Apple Inc full form"
+        },
+        {
+            "query": "Apple company history"
+        },
+        {
+            "query": "Apple Inc website"
+        },
+        {
+            "query": "Apple Inc investor relations"
+        },
+        {
+            "query": "Apple Inc usa"
+        },
+        {
+            "query": "Apple Inc address"
+        }
+    ],
+    "credits": 1
+}

@@ -1,0 +1,100 @@
+{
+    "searchParameters": {
+        "q": "apple inc",
+        "type": "news",
+        "engine": "google"
+    },
+    "news": [
+        {
+            "title": "Apple stock hit with two downgrades on weak iPhone sales, AI outlook",
+            "link": "https://finance.yahoo.com/news/apple-stock-hit-with-two-downgrades-on-weak-iphone-sales-ai-outlook-180001454.html",
+            "snippet": "Jefferies analyst Edison Lee downgraded the investment bank's rating on Apple's (AAPL) stock to Underperform and decreased his price target...",
+            "date": "2 days ago",
+            "source": "Yahoo Finance",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0j_5Cp4H8z0xnE9IITkkNMgGrCVj0tCRLDry5JLfTACmr7Bvm4ZPaMLI&usqp=CAI&s",
+            "position": 1
+        },
+        {
+            "title": "Trump Blasts EU Regulators for Targeting Apple, Google, Meta",
+            "link": "https://www.bloomberg.com/news/articles/2025-01-23/trump-blasts-eu-regulators-for-targeting-apple-google-meta",
+            "snippet": "US President Donald Trump blasted European Union regulators for targeting Apple Inc., Alphabet Inc.'s Google and Meta Platforms Inc.,...",
+            "date": "3 hours ago",
+            "source": "Bloomberg.com",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZYBcHjjtxEzf86x0E-ey4TY_8Bxp7BG0s-4xMrljBvBsIrcRwG6hcAzk&usqp=CAI&s",
+            "position": 2
+        },
+        {
+            "title": "Apple, Google get India's request to open app stores for government-backed app suite - report",
+            "link": "https://seekingalpha.com/news/4397743-apple-google-get-indias-request-to-open-app-stores-for-government-backed-app-suite",
+            "snippet": "Indian government requests Apple and Google to include GOV.in app store in their online marketplaces.",
+            "date": "10 hours ago",
+            "source": "Seeking Alpha",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWl-tKtltsYJQa5nb5FpXlU1sxw66hcN9mDHxTbzYSHA15U7CHgwDbafY&usqp=CAI&s",
+            "position": 3
+        },
+        {
+            "title": "Apple fear overdone with turnaround in the cards, Wedbush says",
+            "link": "https://www.investing.com/news/stock-market-news/apple-fear-overdone-with-turnaround-in-the-cards-wedbush-says-3825949",
+            "snippet": "Investing.com-- Wedbush said on Wednesday that recent weakness in Apple Inc (NASDAQ:AAPL) shares- amid a flurry of ratings downgrades and...",
+            "date": "21 hours ago",
+            "source": "Investing.com",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bqupxXgxTenKbKDGE0mB1pH2wef5AWQgl7lwzbLRKkEN4LLITZa53DI&usqp=CAI&s",
+            "position": 4
+        },
+        {
+            "title": "Apple Fails to Escape Class Action Over Gender Pay Disparity",
+            "link": "https://news.bloomberglaw.com/litigation/apple-fails-to-escape-class-action-over-gender-pay-disparity",
+            "snippet": "Apple Inc. was unable to convince a California state court judge to toss out a proposed class action alleging the tech giant systematically...",
+            "date": "23 hours ago",
+            "source": "Bloomberg Law News",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnwHzygTZg1avhKP4jpaWAf-aSH_09F75sRrH2U0lePcl_O1IzFJHkGns&usqp=CAI&s",
+            "position": 5
+        },
+        {
+            "title": "Apple Made a Major Change to Apple Intelligence that Some People Aren’t Going to Like",
+            "link": "https://www.inc.com/jason-aten/major-change-to-apple-intelligence-that-some-people-arent-going-to-like/91111009",
+            "snippet": "Apple is enabling its AI features for everyone with a compatible device, like it or not.",
+            "date": "9 hours ago",
+            "source": "Inc.com",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXDKfgC2xhvv5UeeQk0VYtDSSg5cZdW4oeoYheZ_PlNLXC81nQvE0FGE&usqp=CAI&s",
+            "position": 6
+        },
+        {
+            "title": "Greenlight Capital’s Updates on Apple (AAPL)",
+            "link": "https://finance.yahoo.com/news/greenlight-capital-updates-apple-aapl-144042852.html",
+            "snippet": "Greenlight Capital, an investment management firm, released its fourth-quarter 2024 investor letter. A copy of the letter can be downloaded...",
+            "date": "6 hours ago",
+            "source": "Yahoo Finance",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrhnZodSzXvxaDxBM9MhAElSbEo1w5ffWKpbUu_ROC3pp9gdr2LKIsBw&usqp=CAI&s",
+            "position": 7
+        },
+        {
+            "title": "Samsung to Beat Apple to Ultrathin Phone With New S25 Edge",
+            "link": "https://finance.yahoo.com/news/samsung-beat-apple-ultrathin-phone-191115119.html",
+            "snippet": "(Bloomberg) -- Samsung Electronics Co. plans to launch an ultrathin version of its Galaxy S25 phone in the first half of this year,...",
+            "date": "19 hours ago",
+            "source": "Yahoo Finance",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD2edTzl2FrdZm-SQxOkmxGiDVVJAgZKWiGhTX92E11vp9EGnuhPPwEF8&usqp=CAI&s",
+            "position": 8
+        },
+        {
+            "title": "Jefferies Downgrades Apple Inc. (AAPL) to Underperform, Citing Weak Revenue Outlook and Subdued AI Focus",
+            "link": "https://finance.yahoo.com/news/jefferies-downgrades-apple-inc-aapl-025432388.html",
+            "snippet": "We recently compiled a list of the 11 AI Stocks That Should Be On Your Watchlist. In this article, we are going to take a look at where...",
+            "date": "18 hours ago",
+            "source": "Yahoo Finance",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmL-dvK_jQTtB7IHHlqNQs8LUlJSbKzKcKVt_-9MAuyt7OS_AAzV-3sFA&usqp=CAI&s",
+            "position": 9
+        },
+        {
+            "title": "Could Nvidia Unseat Apple as the Largest Company in the World in 2025?",
+            "link": "https://finance.yahoo.com/news/could-nvidia-unseat-apple-largest-081200114.html",
+            "snippet": "Nvidia (NASDAQ: NVDA) and Apple (NASDAQ: AAPL) are the two largest companies in the world by market capitalization. While Nvidia is valued...",
+            "date": "13 hours ago",
+            "source": "Yahoo Finance",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM38N61g_4BRsE4crQ31Rch9MYy2H89Crd4xByAB0dmYQnZddKeADGQrs&usqp=CAI&s",
+            "position": 10
+        }
+    ],
+    "credits": 1
+}

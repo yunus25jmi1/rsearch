@@ -1,0 +1,127 @@
+{
+    "searchParameters": {
+        "q": "apple inc",
+        "type": "places",
+        "engine": "google"
+    },
+    "places": [
+        {
+            "position": 1,
+            "title": "Apple Inc",
+            "address": "2511 Laguna Blvd, Elk Grove, CA 95758",
+            "latitude": 38.4293061,
+            "longitude": -121.4791781,
+            "rating": 3.8,
+            "ratingCount": 143,
+            "category": "Corporate office",
+            "phoneNumber": "(916) 399-7173",
+            "website": "http://apple.com/",
+            "cid": "3088679940157317522"
+        },
+        {
+            "position": 2,
+            "title": "Apple Inc.",
+            "address": "1070 E Arques Ave, Sunnyvale, CA 94085",
+            "latitude": 37.378546899999996,
+            "longitude": -122.00035210000001,
+            "rating": 3.9,
+            "ratingCount": 176,
+            "category": "Corporate office",
+            "phoneNumber": "(800) 692-7753",
+            "website": "http://apple.com/",
+            "cid": "14129532238805838308"
+        },
+        {
+            "position": 3,
+            "title": "Apple",
+            "address": "10500 N De Anza Blvd, Cupertino, CA 95014",
+            "latitude": 37.329240899999995,
+            "longitude": -122.0310416,
+            "rating": 3.5,
+            "ratingCount": 181,
+            "category": "Corporate office",
+            "phoneNumber": "(408) 996-1010",
+            "website": "http://apple.com/",
+            "cid": "15878603320944575477"
+        },
+        {
+            "position": 4,
+            "title": "Apple Inc (SD01)",
+            "address": "825 Stewart Dr, Sunnyvale, CA 94085",
+            "latitude": 37.3842661,
+            "longitude": -122.0093141,
+            "website": "https://www.apple.com/",
+            "cid": "14812030798474159337"
+        },
+        {
+            "position": 5,
+            "title": "Apple Corporation",
+            "address": "2080 N Loop Rd, Alameda, CA 94502",
+            "latitude": 37.7286218,
+            "longitude": -122.24425589999998,
+            "rating": 1,
+            "ratingCount": 1,
+            "category": "Corporate campus",
+            "cid": "7770158157602578607"
+        },
+        {
+            "position": 6,
+            "title": "Apple Inc",
+            "address": "2845 Bowers Ave, Santa Clara, CA 95051",
+            "latitude": 37.3731279,
+            "longitude": -121.97731660000001,
+            "cid": "6422183385564473213"
+        },
+        {
+            "position": 7,
+            "title": "Apple Fashion Place",
+            "address": "6191 S State St, Murray, UT 84107",
+            "latitude": 40.6362464,
+            "longitude": -111.8875216,
+            "rating": 3.4,
+            "ratingCount": 1700,
+            "category": "Electronics store",
+            "phoneNumber": "(801) 905-4410",
+            "website": "https://www.apple.com/retail/fashionplace?cid=aos-us-seo-maps",
+            "cid": "5255230387588482741"
+        },
+        {
+            "position": 8,
+            "title": "Apple Washington Square",
+            "address": "9585 SW Washington Square Rd, Tigard, OR 97223",
+            "latitude": 45.450642099999996,
+            "longitude": -122.7809877,
+            "rating": 3.5,
+            "ratingCount": 1500,
+            "category": "Electronics store",
+            "phoneNumber": "(503) 495-2080",
+            "website": "https://www.apple.com/retail/washingtonsquare?cid=aos-us-seo-maps",
+            "cid": "4939156926991346432"
+        },
+        {
+            "position": 9,
+            "title": "Apple Arden Fair",
+            "address": "1689 Arden Wy, Sacramento, CA 95815",
+            "latitude": 38.6016246,
+            "longitude": -121.4269831,
+            "rating": 3.6,
+            "ratingCount": 1400,
+            "category": "Electronics store",
+            "phoneNumber": "(916) 830-5610",
+            "website": "https://www.apple.com/retail/ardenfair?cid=aos-us-seo-maps",
+            "cid": "17024247645621449706"
+        },
+        {
+            "position": 10,
+            "title": "Apple",
+            "address": "455 De Guigne Dr, Sunnyvale, CA 94085",
+            "latitude": 37.384988899999996,
+            "longitude": -122.0078603,
+            "rating": 3.7,
+            "ratingCount": 3,
+            "category": "Corporate campus",
+            "cid": "440065625417431977"
+        }
+    ],
+    "credits": 1
+}
