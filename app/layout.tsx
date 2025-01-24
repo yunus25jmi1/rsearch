@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: 'rSearch: AI-Powered Research Assistant',
     description: 'Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do.',
     creator: '@justmalhar',
-    images: ['/og.svg'],
+    images: ['/og.png'],
   },
   icons: {
     icon: {
