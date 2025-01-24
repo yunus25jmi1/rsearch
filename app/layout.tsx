@@ -49,6 +49,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@justmalhar" />
+        <meta name="twitter:creator" content="@justmalhar" />
+        <meta name="twitter:title" content="rSearch: AI-Powered Research Assistant" />
+        <meta name="twitter:description" content="Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do." />
+        <meta name="twitter:image" content="https://rsearch.app/og.png" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="rSearch: AI-Powered Reasoning Engine" />
+        <meta property="og:description" content="Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do." />
+        <meta property="og:image" content="https://rsearch.app/og.png" />
+        <meta property="og:url" content="https://rsearch.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="rSearch" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </head>
       <body className={inter.className}>
         <div className="min-h-screen bg-white flex">
           <Sidebar />
