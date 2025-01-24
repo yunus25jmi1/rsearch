@@ -10,6 +10,10 @@ A cutting-edge research assistant powered by artificial intelligence that harnes
 - Synthesizing information through sophisticated chain-of-thought reasoning processes
 - Providing clear, actionable insights backed by reliable sources
 
+## Demo
+
+![Demo](https://github.com/Justmalhar/rsearch/raw/main/demo.png)
+
 ## Overview
 
 **rSearch** leverages [DeepSeek's Reasoner - R1 model](https://huggingface.co/deepseek-ai/DeepSeek-R1) to perform Chain-of-Thought reasoning on search results. The platform first refines your query, searches the internet using [Serper.dev](https://serper.dev) API, and then applies advanced reasoning to synthesize a comprehensive, well-thought-out response. Built with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/), it offers a seamless research experience while maintaining high performance and code quality.
