@@ -8,11 +8,11 @@ import { Analytics } from '@vercel/analytics/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "rSearch: AI-Powered Research Assistant",
-  description: "A cutting-edge research assistant powered by artificial intelligence that harnesses advanced reasoning capabilities combined with comprehensive internet search functionality.",
+  title: "rSearch: AI-Powered Reasoning Engine",
+  description: "A cutting-edge reasoning engine powered by artificial intelligence that harnesses advanced reasoning capabilities combined with comprehensive internet search functionality.",
   metadataBase: new URL('https://rsearch.app'),
   openGraph: {
-    title: "rSearch: AI-Powered Research Assistant",
+    title: "rSearch: AI-Powered Reasoning Engine",
     description: "Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do.",
     url: 'https://rsearch.app',
     siteName: 'rSearch',
