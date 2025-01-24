@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'rSearch',
     images: [
       {
-        url: '/og.png',
+        url: 'https://rsearch.app/og.png', // Use absolute URL for WhatsApp
         width: 1200,
         height: 630,
         alt: 'rSearch - AI-Powered Research Assistant'
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: 'rSearch: AI-Powered Research Assistant',
     description: 'Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do.',
     creator: '@justmalhar',
-    images: ['/og.png'],
+    images: ['https://rsearch.app/og.png'], // Use absolute URL here too
   },
   icons: {
     icon: {
