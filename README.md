@@ -1,6 +1,7 @@
 # rSearch: AI-Powered Research Assistant
 
-![Demo Image](https://github.com/Justmalhar/OpenResearch/raw/public/og.png)
+![rSearch](https://rsearch.app/og.png)
+
 
 A cutting-edge research assistant powered by artificial intelligence that harnesses the advanced reasoning capabilities of [DeepSeek R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) combined with comprehensive internet search functionality. **rSearch** delivers precise, well-reasoned responses to complex research queries by:
 
@@ -85,8 +86,13 @@ Deploying **rSearch** is simple and fast with Vercel's one-click deployment opti
     ```
 
 3. Set up environment variables:
-Create a `.env.local` file in the root directory with the following variables:
-    ```env
+    ```bash
+    cp .env.example .env.local
+    ```
+   
+    Create a `.env.local` file in the root directory with the following variables:
+
+   ```env
     # Serper API Key (Google Search API) - https://serper.dev/api-key
     SERPER_API_KEY=
 
@@ -103,12 +109,12 @@ Create a `.env.local` file in the root directory with the following variables:
     NEXT_PUBLIC_DEEPSEEK_REASONING_MODEL=deepseek-reasoner
     ```
 
-4. Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+5. Start the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
 The application will be available at `http://localhost:3000`
 
