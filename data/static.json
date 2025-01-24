@@ -1,67 +1,68 @@
 {
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "March 14, 2024",
+    "lastUpdated": "January 24, 2025", 
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
-        "content": "By accessing and using rSearch, you agree to be bound by these Terms of Service. Our search service provides access to various types of information through web, academic, and specialized searches."
+        "content": "By accessing and using rSearch, you agree to be bound by these Terms of Service. Our AI-powered research assistant provides comprehensive search capabilities across multiple data sources, leveraging advanced reasoning through DeepSeek R1 technology."
       },
       {
-        "heading": "2. Service Description",
-        "content": "rSearch is a knowledge discovery platform that aggregates and analyzes information from multiple sources. We use advanced AI to help users find, understand, and utilize information effectively."
+        "heading": "2. Service Description", 
+        "content": "rSearch is a cutting-edge research assistant that harnesses artificial intelligence to deliver precise, well-reasoned responses to complex queries. We combine state-of-the-art language models, intelligent web searches, and sophisticated chain-of-thought reasoning to provide actionable insights backed by reliable sources."
       },
       {
         "heading": "3. User Responsibilities",
-        "content": "Users agree to use the service responsibly, not to automate queries without permission, and to respect intellectual property rights of content discovered through our service."
+        "content": "Users agree to use the service responsibly and respect intellectual property rights. The service provides access to diverse content categories including web search, images, videos, news, places, shopping, academic content, and patent databases. Users must not attempt to automate queries without permission."
       },
       {
         "heading": "4. Data Usage",
-        "content": "We process search queries to provide results and improve our service. Your usage helps us enhance search accuracy and relevance while maintaining privacy standards."
+        "content": "We process queries through our Chain-of-Thought process: query refinement, comprehensive data gathering via Serper.dev API, reasoning analysis using DeepSeek capabilities, and response synthesis. Your usage helps improve our AI models while maintaining privacy standards."
       }
     ]
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "March 14, 2024",
+    "lastUpdated": "January 24, 2025",
     "sections": [
       {
         "heading": "Data Collection",
-        "content": "We collect search queries, interaction patterns, and optional account information to provide and improve our service. We do not sell personal data to third parties."
+        "content": "We collect search queries and interaction patterns to power our AI-driven research assistant. This data helps train our DeepSeek R1 model for enhanced reasoning capabilities. We do not sell personal data to third parties."
       },
       {
         "heading": "How We Use Your Data",
-        "content": "Your data helps us improve search results, develop new features, and maintain service quality. We use aggregated, anonymized data for research and analysis."
+        "content": "Your data improves our query refinement, search accuracy, and reasoning processes. We use aggregated, anonymized data to enhance our Chain-of-Thought processing and develop new research capabilities."
       },
       {
         "heading": "Data Protection",
-        "content": "We employ industry-standard security measures to protect your data. All searches are encrypted, and we regularly audit our security practices."
+        "content": "We employ industry-standard security measures to protect your data. All searches and AI processing are encrypted, and we regularly audit our security practices to maintain the highest standards."
       },
       {
         "heading": "Your Rights",
-        "content": "You can request your data, opt out of data collection beyond essential functions, and delete your account data at any time."
+        "content": "You maintain full control over your data, with rights to access, opt-out of non-essential collection, and delete account information at any time."
       }
     ]
   },
   "about": {
     "title": "About rSearch",
+    "lastUpdated": "January 24, 2025",
     "sections": [
       {
         "heading": "Our Mission",
-        "content": "rSearch aims to make knowledge discovery effortless and intelligent. We combine advanced search technology with AI to help you find exactly what you're looking for."
+        "content": "rSearch aims to revolutionize research by delivering precise, well-reasoned responses to complex queries through advanced AI technology. We help users discover insights, not just results, through sophisticated reasoning capabilities."
       },
       {
         "heading": "How It Works",
-        "content": "Our platform aggregates information from multiple sources and uses AI to understand context, analyze content, and present the most relevant results for your queries."
+        "content": "Our platform leverages DeepSeek's Reasoner - R1 model for Chain-of-Thought reasoning on search results. We refine queries intelligently, gather comprehensive data via Serper.dev API, and synthesize information through sophisticated reasoning processes."
       },
       {
         "heading": "Features",
-        "content": "From academic research to patent searches, rSearch offers specialized search modes to help you discover knowledge across different domains. Our AI assists in summarizing and analyzing results for better understanding."
+        "content": "rSearch offers multiple search modes including web search, images, videos, news, places, shopping, scholar, and patents. Our modern UI features responsive navigation, mobile optimization, and dynamic result displays, all powered by Next.js and TypeScript."
       },
       {
         "heading": "Technology",
-        "content": "Built with cutting-edge technology, rSearch uses advanced language models, semantic search, and machine learning to provide intelligent search capabilities."
+        "content": "Built with cutting-edge technology including Next.js, TypeScript, and TailwindCSS, rSearch harnesses the DeepSeek R1 model's advanced reasoning capabilities. Our platform offers exceptional performance in math, code, and reasoning tasks, comparable to leading AI models."
       }
     ]
   }
-} 
+}
