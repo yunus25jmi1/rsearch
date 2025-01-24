@@ -3,25 +3,26 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
-import { Settings, Search } from "lucide-react";
+import { Settings, Search, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
+import { Switch } from "@/components/ui/switch";
 
 const aiProviders = [
   {
     id: "deepseek",
-    name: "DeepSeek",
+    name: "DeepSeek", 
     description: "Use DeepSeek's language models deepseek-chat and deepseek-reasoner with reasoning",
     disabled: false
   },
   {
     id: "openai",
-    name: "OpenAI", 
+    name: "OpenAI",
     description: "Coming soon - o1 and o1-mini reasoning mode not available",
     disabled: true
   },
   {
-    id: "openrouter",
+    id: "openrouter", 
     name: "OpenRouter",
     description: "Coming soon - Access multiple AI models through OpenRouter",
     disabled: true
@@ -37,7 +38,7 @@ const searchProviders = [
   },
   {
     id: "tavily",
-    name: "Tavily",
+    name: "Tavily", 
     description: "Coming soon",
     disabled: true
   },
@@ -52,6 +53,7 @@ const searchProviders = [
 export default function SettingsPage() {
   const [selectedAIProvider, setSelectedAIProvider] = useState("deepseek");
   const [selectedSearchProvider, setSelectedSearchProvider] = useState("serper");
+  const [autoExpandSections, setAutoExpandSections] = useState(true);
   const [isSaved, setIsSaved] = useState(false);
 
   useEffect(() => {
@@ -61,13 +63,15 @@ export default function SettingsPage() {
       const settings = JSON.parse(savedSettings);
       setSelectedAIProvider(settings.aiProvider);
       setSelectedSearchProvider(settings.searchProvider);
+      setAutoExpandSections(settings.autoExpandSections ?? true);
     }
   }, []);
 
   const handleSave = () => {
     const settings = {
       aiProvider: selectedAIProvider,
-      searchProvider: selectedSearchProvider
+      searchProvider: selectedSearchProvider,
+      autoExpandSections
     };
     localStorage.setItem("rSearch_settings", JSON.stringify(settings));
     setIsSaved(true);
@@ -83,6 +87,31 @@ export default function SettingsPage() {
         </header>
 
         <div className="space-y-6">
+          <Card className="hover:shadow-lg transition-shadow border-orange-500 hover:border-orange-600">
+            <CardHeader className="pb-3">
+              <div className="flex items-center gap-2 text-orange-500">
+                <ChevronDown className="h-4 w-4" />
+                <CardTitle className="font-serif text-lg">Display Settings</CardTitle>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="flex items-center justify-between">
+                <Label htmlFor="auto-expand" className="text-orange-600">
+                  Auto-expand result sections
+                  <p className="text-sm text-orange-500/80">
+                    Automatically expand refined query, sources, thinking and results sections
+                  </p>
+                </Label>
+                <Switch
+                  id="auto-expand"
+                  checked={autoExpandSections}
+                  onCheckedChange={setAutoExpandSections}
+                  className="data-[state=checked]:bg-orange-500"
+                />
+              </div>
+            </CardContent>
+          </Card>
+
           <Card className="hover:shadow-lg transition-shadow border-orange-500 hover:border-orange-600">
             <CardHeader className="pb-3">
               <div className="flex items-center gap-2 text-orange-500">

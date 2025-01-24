@@ -1,4 +1,4 @@
-# rSearch: AI-Powered Research Assistant
+# rSearch: AI-Powered Reasoning Engine
 
 ![rSearch](https://rsearch.app/og.png)
 
