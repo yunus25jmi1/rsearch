@@ -260,18 +260,29 @@ export default function Home() {
 
       {/* Footer - Now at the bottom */}
       <footer className="mt-auto py-6 px-4">
-        <div className="flex gap-6 justify-center items-center text-sm text-orange-700/60">
-          <Link href="/terms" className="hover:text-orange-800 transition-colors font-serif">
-            Terms
-          </Link>
-          <span>•</span>
-          <Link href="/privacy" className="hover:text-orange-800 transition-colors font-serif">
-            Privacy
-          </Link>
-          <span>•</span>
-          <Link href="/about" className="hover:text-orange-800 transition-colors font-serif">
-            About
-          </Link>
+        <div className="flex flex-col gap-4 items-center">
+          <div className="flex gap-6 justify-center items-center text-sm text-orange-700/60">
+            <Link href="/terms" className="hover:text-orange-800 transition-colors font-serif">
+              Terms
+            </Link>
+            <span>•</span>
+            <Link href="/privacy" className="hover:text-orange-800 transition-colors font-serif">
+              Privacy
+            </Link>
+            <span>•</span>
+            <Link href="/about" className="hover:text-orange-800 transition-colors font-serif">
+              About
+            </Link>
+          </div>
+          <div className="flex flex-row items-center gap-2 mx-auto text-sm text-orange-500/60">
+            <a href="https://www.x.com/justmalhar/" className="hover:text-orange-600 transition-colors font-serif">
+              Made with ❤️ and AI by @justmalhar
+            </a>
+            <span>  •  </span>
+            <a href="https://github.com/Justmalhar/rsearch.git" className="hover:text-orange-600 transition-colors font-serif">
+              View in GitHub
+            </a>
+          </div>
         </div>
       </footer>
     </div>
