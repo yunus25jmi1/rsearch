@@ -12,8 +12,13 @@ export async function generateStaticParams() {
   ];
 }
 
-export default function StaticPage({ params }: { params: { page: StaticPage } }) {
-  const pageData = staticData[params.page];
+export default async function StaticPage({ 
+  params 
+}: { 
+  params: Promise<{ page: StaticPage }> 
+}) {
+  const resolvedParams = await params;
+  const pageData = staticData[resolvedParams.page];
 
   if (!pageData) {
     notFound();
@@ -32,14 +37,14 @@ export default function StaticPage({ params }: { params: { page: StaticPage } })
           {pageData.title}
         </h1>
         
-        {pageData.lastUpdated && (
+        {"lastUpdated" in pageData && (
           <p className="text-orange-500/60 mb-8 font-serif">
             Last updated: {pageData.lastUpdated}
           </p>
         )}
 
         <div className="space-y-8">
-          {pageData.sections.map((section) => (
+          {pageData.sections.map((section: { heading: string; content: string }) => (
             <section key={section.heading} className="space-y-4">
               <h2 className="text-2xl font-serif font-semibold text-orange-700">
                 {section.heading}
@@ -53,4 +58,4 @@ export default function StaticPage({ params }: { params: { page: StaticPage } })
       </main>
     </div>
   );
-} 
+}

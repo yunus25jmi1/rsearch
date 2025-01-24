@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useMediaQuery } from '@/hooks/use-media-query';
 import { Skeleton } from "@/components/ui/skeleton";
 import Query from '@/components/rSearch/query';
@@ -12,7 +12,7 @@ import { getWebsiteName } from '@/lib/utils';
 import SourcesSidebar from '@/components/rSearch/sources-sidebar';
 import { useSearchParams } from 'next/navigation';
 
-export default function SearchPage() {
+function SearchPageContent() {
   // 1. Search params
   const params = useSearchParams();
   const searchTerm = params.get('q') || '';
@@ -356,5 +356,13 @@ export default function SearchPage() {
         />
       )}
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#FFFAF5] p-4 md:p-8">Loading...</div>}>
+      <SearchPageContent />
+    </Suspense>
   );
 }
