@@ -82,8 +82,8 @@ export default function SettingsPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="py-8">
         <header className="mb-8 text-center">
-          <h1 className="text-3xl font-serif font-bold text-orange-600">Settings</h1>
-          <p className="text-orange-500/60 mt-2 font-serif">Configure your search preferences</p>
+          <h1 className="text-3xl  font-bold text-orange-600">Settings</h1>
+          <p className="text-orange-500/60 mt-2 ">Configure your search preferences</p>
         </header>
 
         <div className="space-y-6">
@@ -91,7 +91,7 @@ export default function SettingsPage() {
             <CardHeader className="pb-3">
               <div className="flex items-center gap-2 text-orange-500">
                 <ChevronDown className="h-4 w-4" />
-                <CardTitle className="font-serif text-lg">Display Settings</CardTitle>
+                <CardTitle className=" text-lg">Display Settings</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
@@ -116,7 +116,7 @@ export default function SettingsPage() {
             <CardHeader className="pb-3">
               <div className="flex items-center gap-2 text-orange-500">
                 <Settings className="h-4 w-4" />
-                <CardTitle className="font-serif text-lg">AI Provider</CardTitle>
+                <CardTitle className=" text-lg">AI Provider</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
@@ -137,7 +137,7 @@ export default function SettingsPage() {
                       htmlFor={`ai-${provider.id}`}
                       className="grid gap-1.5 leading-none cursor-pointer"
                     >
-                      <div className="text-orange-600 font-medium font-serif">
+                      <div className="text-orange-600 font-medium ">
                         {provider.name}
                       </div>
                       <div className="text-sm text-orange-500/80">
@@ -154,7 +154,7 @@ export default function SettingsPage() {
             <CardHeader className="pb-3">
               <div className="flex items-center gap-2 text-orange-500">
                 <Search className="h-4 w-4" />
-                <CardTitle className="font-serif text-lg">Search Provider</CardTitle>
+                <CardTitle className=" text-lg">Search Provider</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
@@ -175,7 +175,7 @@ export default function SettingsPage() {
                       htmlFor={`search-${provider.id}`}
                       className="grid gap-1.5 leading-none cursor-pointer"
                     >
-                      <div className="text-orange-600 font-medium font-serif">
+                      <div className="text-orange-600 font-medium ">
                         {provider.name}
                       </div>
                       <div className="text-sm text-orange-500/80">
