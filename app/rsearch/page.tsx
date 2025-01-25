@@ -33,30 +33,21 @@ function SearchPageContent() {
   const [isAiComplete, setIsAiComplete] = useState(false);
 
   // 3. Sources state
-  const [isRefinedQueryExpanded, setIsRefinedQueryExpanded] = useState(() => {
+  const [isRefinedQueryExpanded, setIsRefinedQueryExpanded] = useState(true);
+  const [isSourcesExpanded, setIsSourcesExpanded] = useState(true);
+  const [isThinkingExpanded, setIsThinkingExpanded] = useState(true);
+
+  // Load saved settings on client side
+  useEffect(() => {
     const savedSettings = localStorage.getItem("rSearch_settings");
     if (savedSettings) {
       const settings = JSON.parse(savedSettings);
-      return settings.autoExpandSections ?? true;
+      const autoExpand = settings.autoExpandSections ?? true;
+      setIsRefinedQueryExpanded(autoExpand);
+      setIsSourcesExpanded(autoExpand);
+      setIsThinkingExpanded(autoExpand);
     }
-    return true;
-  });
-  const [isSourcesExpanded, setIsSourcesExpanded] = useState(() => {
-    const savedSettings = localStorage.getItem("rSearch_settings");
-    if (savedSettings) {
-      const settings = JSON.parse(savedSettings);
-      return settings.autoExpandSections ?? true;
-    }
-    return true;
-  });
-  const [isThinkingExpanded, setIsThinkingExpanded] = useState(() => {
-    const savedSettings = localStorage.getItem("rSearch_settings");
-    if (savedSettings) {
-      const settings = JSON.parse(savedSettings);
-      return settings.autoExpandSections ?? true;
-    }
-    return true;
-  });
+  }, []);
   const [isResultsExpanded, setIsResultsExpanded] = useState(true);
   const [isLoadingSources, setIsLoadingSources] = useState(true);
   const [sources, setSources] = useState<SearchResult[]>([]);

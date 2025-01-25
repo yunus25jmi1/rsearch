@@ -33,8 +33,8 @@ export default function Results({
   getWebsiteName
 }: ResultsProps) {
   return (
-    <div>
-      <div className="prose prose-orange max-w-none space-y-8">
+    <div className="w-full">
+      <div className="prose prose-orange max-w-none space-y-8 overflow-x-hidden w-full max-w-[95vw] md:max-w-full">
         {/* AI Response Section */}
         {isAiLoading && !aiResponse && (
           <div className="bg-orange-50/50 rounded-lg p-6">
@@ -56,8 +56,8 @@ export default function Results({
         {aiResponse && (
           <>
             {/* AI Response */}
-            <div className="rounded-lg p-6 shadow-sm">
-              <div className="prose prose-orange max-w-none">
+            <div className="rounded-lg p-6 shadow-sm w-full max-w-[95vw] md:max-w-full">
+              <div className="prose prose-orange max-w-none overflow-x-hidden w-full max-w-[95vw] md:max-w-full">
                 <Markdown
                   components={{
                     h1: ({...props}) => (
@@ -99,7 +99,7 @@ export default function Results({
                       <td {...props} className="px-6 py-4 text-sm text-gray-700 whitespace-normal" />
                     ),
                     img: ({...props}) => (
-                      <img {...props} alt={props.alt || ''} className="w-full h-auto border-radius-md" />
+                      <img {...props} alt={props.alt || ''} className="w-full h-auto rounded-lg" />
                     ),
                     p: ({children, ...props}) => {
                       // Get text content from React children
