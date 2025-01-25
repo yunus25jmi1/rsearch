@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Block access to internal routes
+Disallow: /_next/
+Disallow: /_error/
+
+# Allow static assets
+Allow: /static/
+Allow: /images/
+Allow: /*.js
+Allow: /*.css
+Allow: /favicon.ico
+
+# Sitemap
+Sitemap: https://rsearch.app/sitemap.xml
