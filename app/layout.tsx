@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: 'rSearch',
     images: [
       {
-        url: 'https://rsearch.app/og.png',
+        url: '/og.png',
         width: 1200,
         height: 630,
         alt: 'rSearch - AI-Powered Research Assistant'
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     description: 'Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do.',
     creator: '@justmalhar',
     site: '@justmalhar',
-    images: ['https://rsearch.app/og.png'],
+    images: ['/og.png'],
   },
   viewport: {
     width: 'device-width',
@@ -84,12 +84,12 @@ export default function RootLayout({
         <meta name="twitter:creator" content="@justmalhar" />
         <meta name="twitter:title" content="rSearch: AI-Powered Research Assistant" />
         <meta name="twitter:description" content="Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do." />
-        <meta name="twitter:image" content="https://rsearch.app/og.png" />
+        <meta name="twitter:image" content="/og.png" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="rSearch: AI-Powered Reasoning Engine" />
         <meta property="og:description" content="Discover Insights, Not Just Results. AI-powered reasoning engine that thinks just like you do." />
-        <meta property="og:image" content="https://rsearch.app/og.png" />
+        <meta property="og:image" content="/og.png" />
         <meta property="og:url" content="https://rsearch.app" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="rSearch" />
