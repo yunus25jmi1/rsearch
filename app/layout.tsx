@@ -96,6 +96,7 @@ export default function RootLayout({
         <meta property="og:locale" content="en_US" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta property="og:logo" content="/logo.png" />
       </head>
       <body className={inter.className}>
         <div className="min-h-screen bg-white flex">
