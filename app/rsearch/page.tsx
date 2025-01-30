@@ -304,7 +304,7 @@ function SearchPageContent() {
         </section>
 
         {/* 4. Thinking */}
-        <section>
+        {reasoningContent && <section>
           <button
             type="button"
             onClick={() => setIsThinkingExpanded(!isThinkingExpanded)}
@@ -324,7 +324,7 @@ function SearchPageContent() {
             </svg>
           </button>
           {isThinkingExpanded && <Thinking reasoningContent={reasoningContent} />}
-        </section>
+        </section>}
 
         {/* 5. Results */}
         <section>

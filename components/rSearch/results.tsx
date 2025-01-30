@@ -61,22 +61,22 @@ export default function Results({
                 <Markdown
                   components={{
                     h1: ({...props}) => (
-                      <h1 {...props} className="text-2xl font-bold text-orange-600 font-serif mb-4" />
+                      <h1 {...props} className="text-2xl font-bold text-orange-600  mb-4" />
                     ),
                     h2: ({...props}) => (
-                      <h2 {...props} className="text-xl font-bold text-orange-600 font-serif mt-6 mb-3" />
+                      <h2 {...props} className="text-xl font-bold text-orange-600  mt-6 mb-3" />
                     ),
                     h3: ({...props}) => (
-                      <h3 {...props} className="text-lg font-bold text-orange-600 font-serif mt-4 mb-2" />
+                      <h3 {...props} className="text-lg font-bold text-orange-600  mt-4 mb-2" />
                     ),
                     h4: ({...props}) => (
-                      <h4 {...props} className="text-base font-bold text-orange-600 font-serif mt-4 mb-2" />
+                      <h4 {...props} className="text-base font-bold text-orange-600  mt-4 mb-2" />
                     ),
                     h5: ({...props}) => (
-                      <h5 {...props} className="text-base font-bold text-orange-600 font-serif mt-4 mb-2" />
+                      <h5 {...props} className="text-base font-bold text-orange-600  mt-4 mb-2" />
                     ),
                     h6: ({...props}) => (
-                      <h6 {...props} className="text-base font-bold text-orange-600 font-serif mt-4 mb-2" />
+                      <h6 {...props} className="text-base font-bold text-orange-600  mt-4 mb-2" />
                     ),
                     table: ({...props}) => (
                       <div className="overflow-x-auto">
@@ -272,7 +272,7 @@ export default function Results({
             {/* People Also Ask */}
             {searchResults.peopleAlsoAsk && searchResults.peopleAlsoAsk.length > 0 && (
                   <div className="pt-8">
-                    <h2 className="text-xl font-serif text-orange-600 mb-4">People Also Ask</h2>
+                    <h2 className="text-xl  text-orange-600 mb-4">People Also Ask</h2>
                     <div className="space-y-3">
                       {searchResults.peopleAlsoAsk.map((item) => (
                         <div 
@@ -316,7 +316,7 @@ export default function Results({
                 {/* Related Searches */}
                 {searchResults.relatedSearches && searchResults.relatedSearches.length > 0 && (
                   <div className="pt-8">
-                    <h2 className="text-xl font-serif text-orange-600 mb-4">Related Searches</h2>
+                    <h2 className="text-xl  text-orange-600 mb-4">Related Searches</h2>
                     <div className="flex flex-wrap gap-2">
                       {searchResults.relatedSearches.map((item) => (
                         <button

@@ -3,8 +3,8 @@ import OpenAI from 'openai';
 import { z } from 'zod';
 
 const openai = new OpenAI({
-  apiKey: process.env.NEXT_PUBLIC_DEEPSEEK_API_KEY,
-  baseURL: process.env.NEXT_PUBLIC_DEEPSEEK_BASE_URL,
+  apiKey: process.env.NEXT_PUBLIC_AI_PROVIDER_API_KEY,
+  baseURL: process.env.NEXT_PUBLIC_AI_PROVIDER_BASE_URL,
 });
 
 export const runtime = 'edge';
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
 
     const prompt = refineSearchQueryPrompt(searchTerm, mode, currentDate); 
 
-    const model = process.env.NEXT_PUBLIC_DEEPSEEK_REFINER_MODEL;
+    const model = process.env.NEXT_PUBLIC_AI_REFINER_MODEL;
 
     const response = await openai.chat.completions.create({
       model: model as string,

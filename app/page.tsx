@@ -113,9 +113,9 @@ export default function Home() {
         {/* Logo Section */}
         <div className="flex flex-col items-center space-y-4 mb-8">
           <Logo className="transform hover:scale-105 transition-transform duration-300" />
-          <p className="text-orange-600 font-serif text-[12px] sm:text-sm font-medium bg-orange-100/50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-sm text-center max-w-[90vw] mx-auto whitespace-nowrap">
-            AI-powered search with advanced reasoning capabilities
-          </p>
+            <p className="text-orange-600 text-[12px] sm:text-sm font-small bg-orange-100/50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-sm text-center max-w-[90vw] mx-auto whitespace-nowrap">
+              {process.env.NEXT_PUBLIC_LANDING_PAGE_COPY_TEXT}
+            </p>
         </div>
 
         {/* Search Section */}
@@ -284,21 +284,21 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium pb-4 border-b border-orange-200/30">
               <Link 
                 href="/terms" 
-                className="text-orange-800/90 hover:text-orange-900 transition-colors font-serif hover:scale-105 transform duration-200"
+                className="text-orange-800/90 hover:text-orange-900 transition-colors  hover:scale-105 transform duration-200"
               >
                 Terms
               </Link>
               <span className="hidden md:inline text-orange-400">•</span>
               <Link 
                 href="/privacy" 
-                className="text-orange-800/90 hover:text-orange-900 transition-colors font-serif hover:scale-105 transform duration-200"
+                className="text-orange-800/90 hover:text-orange-900 transition-colors  hover:scale-105 transform duration-200"
               >
                 Privacy
               </Link>
               <span className="hidden md:inline text-orange-400">•</span>
               <Link 
                 href="/about" 
-                className="text-orange-800/90 hover:text-orange-900 transition-colors font-serif hover:scale-105 transform duration-200"
+                className="text-orange-800/90 hover:text-orange-900 transition-colors  hover:scale-105 transform duration-200"
               >
                 About
               </Link>
@@ -308,14 +308,14 @@ export default function Home() {
             <div className="flex flex-row items-center gap-4 text-sm pt-2">
               <a 
                 href="https://www.x.com/justmalhar/" 
-                className="text-orange-700/90 hover:text-orange-800 transition-colors font-serif hover:scale-105 transform duration-200 whitespace-nowrap hover:bg-orange-100/50 px-3 py-1 rounded-full"
+                className="text-orange-700/90 hover:text-orange-800 transition-colors  hover:scale-105 transform duration-200 whitespace-nowrap hover:bg-orange-100/50 px-3 py-1 rounded-full"
               >
                 Made with ❤️ and AI by @justmalhar
               </a>
               <span className="hidden md:inline text-orange-400">•</span>
               <a 
                 href="https://github.com/Justmalhar/rsearch.git" 
-                className="hidden md:flex text-orange-700/90 hover:text-orange-800 transition-colors font-serif hover:scale-105 transform duration-200 items-center gap-2 hover:bg-orange-100/50 px-3 py-1 rounded-full"
+                className="hidden md:flex text-orange-700/90 hover:text-orange-800 transition-colors  hover:scale-105 transform duration-200 items-center gap-2 hover:bg-orange-100/50 px-3 py-1 rounded-full"
               >
                 <svg 
                   className="w-4 h-4" 

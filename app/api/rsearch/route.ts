@@ -10,8 +10,8 @@ import type {
 import { rSearchPrompt } from '@/lib/prompts';
 
 const openai = new OpenAI({
-  apiKey: process.env.NEXT_PUBLIC_DEEPSEEK_API_KEY,
-  baseURL: process.env.NEXT_PUBLIC_DEEPSEEK_BASE_URL,
+  apiKey: process.env.NEXT_PUBLIC_AI_PROVIDER_API_KEY,
+  baseURL: process.env.NEXT_PUBLIC_AI_PROVIDER_BASE_URL,
 });
 
 
@@ -145,7 +145,7 @@ ${video.date ? `Date: ${video.date}\n` : ''}${video.duration ? `Duration: ${vide
 
     const prompt = rSearchPrompt(searchTerm, searchContext + context, currentDate);
 
-    const model = process.env.NEXT_PUBLIC_DEEPSEEK_REASONING_MODEL;
+    const model = process.env.NEXT_PUBLIC_AI_REASONING_MODEL;
 
 
     const response = await openai.chat.completions.create({
