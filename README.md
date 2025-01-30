@@ -9,10 +9,14 @@ A cutting-edge research assistant powered by artificial intelligence that harnes
 - Performing intelligent web searches across multiple data sources
 - Synthesizing information through sophisticated chain-of-thought reasoning processes
 - Providing clear, actionable insights backed by reliable sources
+- Customizable AI models from [OpenAI](https://openai.com), [OpenRouter](https://openrouter.ai) or [DeepSeek](https://deepseek.com)
+- Self hosted alternative to [Perplexity](https://perplexity.ai)
 
 ## Demo
 
 ![Demo](https://github.com/Justmalhar/rsearch/raw/main/demo.png)
+
+Try rSearch* for free here - [rsearch.app](https://rsearch.app)
 
 ## Overview
 
@@ -25,6 +29,8 @@ A cutting-edge research assistant powered by artificial intelligence that harnes
   - Exceptional performance in math, code, and reasoning tasks
   - Comparable performance to [OpenAI-o1](https://openai.com)
   - Open-source availability for research and development
+
+- **Customizable AI Models**: Added support to use any AI models from [OpenAI](https://openai.com), [OpenRouter](https://openrouter.ai) or [DeepSeek](https://deepseek.com) as your AI provider.
 
 - **Chain-of-Thought Process**:
   1. Query Refinement: Intelligent processing of user input
@@ -55,7 +61,7 @@ A cutting-edge research assistant powered by artificial intelligence that harnes
 
 Deploying **rSearch** is simple and fast with Vercel's one-click deployment option. Vercel provides a powerful and scalable environment for your project.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/justmalhar/rsearch&env=SERPER_API_KEY&env=NEXT_PUBLIC_DEEPSEEK_API_KEY&env=NEXT_PUBLIC_DEEPSEEK_BASE_URL&env=NEXT_PUBLIC_DEEPSEEK_REFINER_MODEL&env=NEXT_PUBLIC_DEEPSEEK_REASONING_MODEL)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/justmalhar/rsearch&env=SERPER_API_KEY&env=NEXT_PUBLIC_AI_PROVIDER_API_KEY&env=NEXT_PUBLIC_AI_PROVIDER_BASE_URL&env=NEXT_PUBLIC_AI_REFINER_MODEL&env=NEXT_PUBLIC_AI_REASONING_MODEL&env=NEXT_PUBLIC_LANDING_PAGE_COPY_TEXT)
 
 
 ## Tech Stack
@@ -96,21 +102,36 @@ Deploying **rSearch** is simple and fast with Vercel's one-click deployment opti
    
     Create a `.env.local` file in the root directory with the following variables:
 
-   ```env
+   ```bash
     # Serper API Key (Google Search API) - https://serper.dev/api-key
     SERPER_API_KEY=
 
+    # You can either use OpenAI, OpenRouter or DeepSeek as your AI provider.
+    # OpenAI API Key (AI Provider) - https://platform.openai.com/api-keys
+    # OpenRouter API Key (AI Provider) - https://openrouter.ai/settings/keys
     # DeepSeek API Key (AI Provider) - https://platform.deepseek.com/api_keys
-    NEXT_PUBLIC_DEEPSEEK_API_KEY=
+    NEXT_PUBLIC_AI_PROVIDER_API_KEY=
 
-    # DeepSeek Base URL (AI Provider)
-    NEXT_PUBLIC_DEEPSEEK_BASE_URL=https://api.deepseek.com
+    # AI Provider Base URL (AI Provider)
+    # DeepSeek Base URL (AI Provider) - https://api.deepseek.com
+    # OpenAI Base URL (AI Provider) - https://api.openai.com
+    # OpenRouter Base URL (AI Provider) - https://openrouter.ai/api/v1
+    NEXT_PUBLIC_AI_PROVIDER_BASE_URL=https://api.deepseek.com
 
-    # DeepSeek Refiner Model (AI Provider)
-    NEXT_PUBLIC_DEEPSEEK_REFINER_MODEL=deepseek-chat
+    # AI Query Refiner Model (AI Provider)
+    # DeepSeek Refiner Model (AI Provider) - deepseek-chat
+    # OpenAI Refiner Model (AI Provider) - gpt-4o-mini
+    # OpenRouter Refiner Model (AI Provider) - openai/gpt-4o-mini
+    NEXT_PUBLIC_AI_REFINER_MODEL=gpt-4o-mini
 
-    # DeepSeek Reasoning Model (AI Provider)
-    NEXT_PUBLIC_DEEPSEEK_REASONING_MODEL=deepseek-reasoner
+    # AI Reasoning Model (AI Provider)
+    # DeepSeek Reasoning Model (AI Provider) - deepseek-reasoner
+    # OpenAI Reasoning Model (AI Provider) - gpt-4o
+    # OpenRouter Reasoning Model (AI Provider) - openai/gpt-4o
+    NEXT_PUBLIC_AI_REASONING_MODEL=gpt-4o
+
+    # Landing Page Copy Text
+    NEXT_PUBLIC_LANDING_PAGE_COPY_TEXT="AI-powered search with advanced reasoning capabilities"
     ```
 
 5. Start the development server:
