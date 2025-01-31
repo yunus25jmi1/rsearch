@@ -1,4 +1,5 @@
 import type { SerperResponse } from '@/types/search';
+export const runtime = "edge";
 
 interface KnowledgeGraphProps {
   data: SerperResponse['knowledgeGraph'];

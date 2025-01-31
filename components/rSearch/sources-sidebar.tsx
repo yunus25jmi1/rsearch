@@ -1,4 +1,5 @@
 import { SearchResult, PlaceSearchResult } from '@/types/search';
+export const runtime = "edge";
 
 interface SourcesSidebarProps {
   showSidebar: boolean;

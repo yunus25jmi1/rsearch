@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+export const runtime = "edge";
 interface LogoProps {
   className?: string;
 }

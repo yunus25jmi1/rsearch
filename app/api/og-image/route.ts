@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+export const runtime = "edge";
 
 async function fetchOGImage(url: string): Promise<string | null> {
   try {

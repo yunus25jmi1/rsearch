@@ -1,4 +1,5 @@
 export type SearchSource = 'web' | 'images' | 'videos' | 'places' | 'news' | 'shopping' | 'scholar' | 'patents' | 'academic';
+export const runtime = "edge";
 
 // Base interface for common properties
 interface BaseSearchResult {

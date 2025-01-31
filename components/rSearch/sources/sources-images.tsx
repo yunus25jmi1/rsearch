@@ -1,5 +1,5 @@
 "use client";
-
+export const runtime = "edge";
 import type { ImageSearchResult } from '@/types/search';
 import Image from 'next/image';
 import {

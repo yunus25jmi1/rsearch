@@ -1,6 +1,7 @@
 import type { NewsSearchResult } from '@/types/search';
 import { useEffect, useState } from 'react';
 
+export const runtime = "edge";
 interface NewsSourcesProps {
   sources: NewsSearchResult[];
   displayCount: number;

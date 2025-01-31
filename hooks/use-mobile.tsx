@@ -1,5 +1,5 @@
 import * as React from "react"
-
+export const runtime = "edge";
 const MOBILE_BREAKPOINT = 768
 
 export function useIsMobile() {

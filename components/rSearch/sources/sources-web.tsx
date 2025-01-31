@@ -1,4 +1,5 @@
 import type { WebSearchResult } from '@/types/search';
+export const runtime = "edge";
 
 interface WebSourcesProps {
   sources: WebSearchResult[];

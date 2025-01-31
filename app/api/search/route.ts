@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { SerperResponse, SearchSource } from '@/types/search';
+export const runtime = "edge";
 
 export async function POST(request: Request) {
   try {

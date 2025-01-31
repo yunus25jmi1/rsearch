@@ -23,6 +23,7 @@ import PlaceSources from './sources/sources-places';
 import ShoppingSources from './sources/sources-shopping';
 import ScholarSources from './sources/sources-scholar';
 import PatentSources from './sources/sources-patents';
+export const runtime = "edge";
 
 interface SourcesProps {
   sources: SearchResult[] | SerperResponse;

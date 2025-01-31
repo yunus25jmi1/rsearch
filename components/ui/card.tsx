@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
+export const runtime = "edge";
 
 const Card = React.forwardRef<
   HTMLDivElement,

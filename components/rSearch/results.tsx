@@ -1,7 +1,7 @@
 'use client';
 
 import Markdown from 'react-markdown';
-
+export const runtime = "edge";
 interface ResultsProps {
   isAiLoading: boolean;
   aiResponse: string | null;

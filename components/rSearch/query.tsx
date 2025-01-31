@@ -1,3 +1,4 @@
+export const runtime = "edge";
 
 import { 
   Globe, BookText, Video, ShoppingBag, MapPin, Newspaper, GraduationCap, Lightbulb 

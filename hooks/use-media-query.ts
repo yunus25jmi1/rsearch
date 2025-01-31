@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+export const runtime = "edge";
 export function useMediaQuery(query: string) {
   const [matches, setMatches] = useState(false);
 

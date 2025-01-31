@@ -9,6 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+export const runtime = "edge";
 
 interface VideoSourcesProps {
   sources: VideoSearchResult[];

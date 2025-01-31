@@ -1,5 +1,6 @@
 import React from 'react';
 import type { AcademicSearchResult } from '@/types/search';
+export const runtime = "edge";
 
 interface ScholarSourcesProps {
   sources: (AcademicSearchResult & {

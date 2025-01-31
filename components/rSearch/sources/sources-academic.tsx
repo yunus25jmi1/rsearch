@@ -1,4 +1,5 @@
 import { AcademicSearchResult } from '@/types/search';
+export const runtime = "edge";
 
 interface AcademicSourcesProps {
   sources: AcademicSearchResult[];

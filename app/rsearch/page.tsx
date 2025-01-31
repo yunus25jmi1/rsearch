@@ -1,4 +1,5 @@
 'use client';
+export const runtime = "edge";
 
 import { Suspense, useEffect, useState } from 'react';
 import { useMediaQuery } from '@/hooks/use-media-query';

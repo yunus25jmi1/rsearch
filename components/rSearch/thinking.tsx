@@ -1,6 +1,7 @@
 'use client';
 
 import Markdown from 'react-markdown';
+export const runtime = "edge";
 
 interface ThinkingProps {
   reasoningContent?: string | null;
