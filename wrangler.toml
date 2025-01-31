@@ -1,0 +1,25 @@
+name = "rsearch"
+type = "javascript"
+
+workers_dev = true
+compatibility_date = "2025-01-31"
+
+[vars]
+NODE_VERSION = "20.17.0"
+
+[site]
+bucket = ".next"
+
+[build]
+command = "npm run build"
+
+[env.production]
+route = "rsearch.yunus.eu.org/*"
+
+[env.staging]
+route = "staging.rsearch.yunus.eu.org/*"
+
+[dev]
+ip = "127.0.0.1"
+port = 8787
+local_protocol = "http"
