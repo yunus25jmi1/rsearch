@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import staticData from "@/data/static.json";
 import { Logo } from "@/components/ui/logo";
-export const runtime = "edge";
+
 
 type StaticPage = "terms" | "privacy" | "about";
 
